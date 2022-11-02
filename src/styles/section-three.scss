@@ -1,0 +1,77 @@
+.card-icon>img{
+
+}
+.section-three-container {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    align-items: center;
+    justify-items: center;
+    background-image: url("../images/section-three-bg.png");
+
+
+    .section-header {
+        grid-column: 1/4;
+        font-weight: 400;
+        font-size: 45px;
+        line-height: 120%;
+    }
+
+    .card {
+
+        margin: 70px 20px 20px 20px;
+        width: auto;
+        height: 395px;
+        background: #FFFFFF;
+        border: 0.5px solid #E0E0E0;
+        border-radius: 5px;
+
+        .card-icon {
+            img{
+                justify-self: center;
+                align-self: center;
+                object-fit: contain;
+                position: relative;
+                top:50%;
+                left:50%;
+            }
+            position:relative;
+            width: 102px;
+            height: 102px;
+            left:160px;
+            top: -55px;
+            border-radius: 50%;
+            background: #FFFFFF;
+            box-shadow: 11px 8px 33px 7px rgba(0, 11, 13, 0.07);
+        }
+
+        .card-header {
+            font-weight: 400;
+            font-size: 30px;
+            line-height: 130%;
+            align-self: center;
+            text-align: center;
+        }
+
+        .card-content {
+            font-weight: 400;
+            font-size: 23px;
+            line-height: 141%;
+            padding: 20px;
+            text-align: center;
+        }
+    }
+
+    .section-button {
+        grid-column: 1/4;
+        width: 386px;
+        height: 65px;
+        background: #000000;
+        border-radius: 3px;
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 120%;
+        align-items: center;
+        text-transform: uppercase;
+        color: #FFFFFF;
+    }
+}
