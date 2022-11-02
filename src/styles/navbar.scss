@@ -1,0 +1,27 @@
+@import "./utilities-components.scss";
+
+.navbar-container {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 30px;
+    
+    .navbar-brand {
+        width: 50%;
+        height: 75px;
+        align-items: center;
+    }
+    
+    .navbar-link {
+        font-family:'Port Lligat Sans';
+        display: flex;
+        margin: auto;
+
+        div {
+            padding: 5px 20px;
+        }
+    }
+
+}
