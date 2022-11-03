@@ -1,0 +1,26 @@
+.section-five-container {
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    padding: 30px;
+    width: 100%;
+    box-sizing: border-box;
+    justify-items: center;
+    margin: 50px 0px;
+
+    .sub-section-five-container {
+        display:grid;
+        grid-template-rows: 30% 70%;
+        justify-items: center;
+        align-items: center;
+        row-gap: 30px;
+        margin: 10px;
+    }
+
+    .sub-section-head {
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 150%;
+        align-items: center;
+        text-align: center;
+    }
+}
