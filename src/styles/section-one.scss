@@ -55,7 +55,7 @@
 
     .account-creation-from {
         width: 312px;
-        height:fit-content;
+        height: fit-content;
         justify-self: center;
         align-self: center;
         background: rgba(65, 57, 207, 0.5);
@@ -78,25 +78,41 @@
 
             .store-name,
             .email {
+                border: none;
+                background-image: none;
+                background-color: transparent;
+                -webkit-box-shadow: none;
+                -moz-box-shadow: none;
+                box-shadow: none;
                 font-family: 'LatoLatin';
                 font-style: normal;
                 font-weight: 400;
                 font-size: 16px;
                 line-height: 120%;
                 align-items: center;
+                width: 100%;
                 color: #FFFFFF;
                 padding: 25px 0px 5px 0px;
                 border-bottom: 0.5px solid rgba(255, 255, 255, 0.46);
                 opacity: 0.5;
             }
+            .store-name:focus,.email:focus{
+                border: 0.5px solid rgba(255, 255, 255, 0.46);;
+                background-image: none;
+                background-color: transparent;
+                -webkit-box-shadow: none;
+                -moz-box-shadow: none;
+                box-shadow: none;
+            }
 
             .creation-button {
-                width: 230px;
-                height: 50px;
+                width: 100%;
+                height: auto;
                 background: #000000;
                 border-radius: 3px;
                 color: #FFFFFF;
-                margin: 20px;
+                margin:50px 0px;
+                padding:20px 0px;
             }
         }
     }

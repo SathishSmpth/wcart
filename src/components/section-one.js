@@ -20,12 +20,8 @@ const SectionOne = () => {
                     Create Your Demo Store In Less Than Two Minutes
                 </div>
                 <div className="creation-form">
-                    <div className="store-name">
-                        Store Name
-                    </div>
-                    <div className="email">
-                        Email
-                    </div>
+                    <input className="store-name" type="text" placeholder="Store Name"/>
+                    <input className="email" type="email" placeholder="Email"/>
                     <button className="creation-button">
                         Create Your Store Now
                     </button>

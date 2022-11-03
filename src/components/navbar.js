@@ -2,11 +2,11 @@ import logo from "../images/logo.png";
 
 const Navbar = () => {
     return (
-        <div className="navbar-container">
-            <div className="navbar-brand">
+        <div className="navigation-bar-container">
+            <div className="navigation-bar-brand">
                 <img src={logo} alt="W Cart" />
             </div>
-            <div className="navbar-link">
+            <div className="navigation-bar-link">
                 <div><b>About</b></div>
                 <div><b>Services</b></div>
                 <div><b>Features</b></div>

@@ -1,6 +1,6 @@
 @import "./utilities-components.scss";
 
-.navbar-container {
+.navigation-bar-container {
     display: grid;
     grid-template-columns: 1fr 2fr;
     width: 100%;
@@ -8,13 +8,13 @@
     align-items: center;
     padding: 5px 30px;
     
-    .navbar-brand {
+    .navigation-bar-brand {
         width: 50%;
         height: 75px;
         align-items: center;
     }
     
-    .navbar-link {
+    .navigation-bar-link {
         font-family:'Port Lligat Sans';
         display: flex;
         margin: auto;

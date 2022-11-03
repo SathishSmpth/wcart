@@ -1,6 +1,3 @@
-.card-icon>img{
-
-}
 .section-three-container {
     display: grid;
     grid-template-columns: 33% 33% 33%;
@@ -27,12 +24,10 @@
 
         .card-icon {
             img{
-                justify-self: center;
-                align-self: center;
-                object-fit: contain;
                 position: relative;
-                top:50%;
-                left:50%;
+                top:26px;
+                left:26px;
+                display: block;
             }
             position:relative;
             width: 102px;
@@ -63,8 +58,8 @@
 
     .section-button {
         grid-column: 1/4;
-        width: 386px;
-        height: 65px;
+        width: auto;
+        height: auto;
         background: #000000;
         border-radius: 3px;
         font-weight: 400;
@@ -73,5 +68,7 @@
         align-items: center;
         text-transform: uppercase;
         color: #FFFFFF;
+        margin:50px 20px;
+        padding:20px 40px;
     }
 }
