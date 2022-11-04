@@ -1,4 +1,4 @@
-import image from "../images/image1.jpg";
+import image from "../images/sectionTwoImage.jpg";
 import userIcon from "../images/user-icon.png";
 import vendorIcon from "../images/vendor-icon.png";
 import image2 from "../images/sub-section-3.png";
@@ -10,7 +10,7 @@ const SectionTwo = () => {
                 <div className="sub-section-header">Front-End Theme Editor</div>
                 <div className="sub-section-one-content">
                     Initiative To Use For Non-Technical Users-
-                    Activate Custom Front-<br /><br />
+                    Activate Custom Front-<br/><br />
                     End Theme Creation Render Dynamic Product Listing Using <br /><br />
                     Templates Made With Real-
                     Time Bootstrap Page Builder Flexible <br /><br />
