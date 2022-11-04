@@ -7,7 +7,7 @@
 
     .sub-section-two {
         @include sub-section-grid-container;
-        background-image: url("../images/section-two-background-image.png");
+        background-image: url("../images/secTwoBgImageOne.png");
     }
 
     .sub-section-header {
@@ -16,7 +16,7 @@
 }
 
 .sub-section-three-four {
-    background-image: url("../images/sub-section-3-4.png");
+    background-image: url("../images/secTwoBgImageTwo.png");
 
     .sub-section-three {
         @include sub-section-grid-container;
