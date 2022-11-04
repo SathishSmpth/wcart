@@ -1,9 +1,9 @@
 import Navbar from "./components/navbar";
-import SectionOne from "./components/section-one";
-import SectionThree from "./components/section-three";
-import SectionTwo from "./components/section-two";
-import SectionFour from "./components/section-four";
-import SectionFive from "./components/section-five";
+import SectionOne from "./components/sectionOne";
+import SectionThree from "./components/sectionThree";
+import SectionTwo from "./components/sectionTwo";
+import SectionFour from "./components/sectionFour";
+import SectionFive from "./components/sectionFive";
 import Footer from "./components/footer";
 
 const App =()=> {

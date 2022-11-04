@@ -1,7 +1,7 @@
-import image from "../images/sectionTwoImage.jpg";
+import sectionTwoImageOne from "../images/sectionTwoImageOne.jpg";
 import userIcon from "../images/user-icon.png";
 import vendorIcon from "../images/vendor-icon.png";
-import image2 from "../images/sub-section-3.png";
+import sectionThreeImage from "../images/sectionTwoImageTwo.png";
 
 const SectionTwo = () => {
     return (
@@ -17,7 +17,7 @@ const SectionTwo = () => {
                     Mobile-First Design Easy To Use Drag And Drop Builder Unlimited <br /><br />
                     Theme Flexibility
                 </div>
-                <div className="image-section"><img src={image} alt="Img not found" /></div>
+                <div className="image-section"><img src={sectionTwoImageOne} alt="Img not found" /></div>
             </div>
             <div className="sub-section-two">
                 <div className="sub-section-header">Headless Commerce API-First Approach</div>
@@ -62,7 +62,7 @@ const SectionTwo = () => {
                         <div>Hyperlocal Marketplace System ( Addon )</div>
                     </div>
                     <div className="image-section-three">
-                        <img src={image2} alt="Img Not Found"></img>
+                        <img src={sectionThreeImage} alt="Img Not Found"></img>
                     </div>
                 </div>
                 <div className="sub-section-four">
