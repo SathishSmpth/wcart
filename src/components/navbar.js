@@ -6,6 +6,9 @@ const Navbar = () => {
             <div className="navigation-bar-brand">
                 <img src={logo} alt="W Cart" />
             </div>
+            <div className="navigation-bar-brand">
+                <img src={logo} alt="W Cart" />
+            </div>
             <div className="navigation-bar-link">
                 <div><b>About</b></div>
                 <div><b>Services</b></div>
