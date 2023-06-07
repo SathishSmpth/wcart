@@ -1,4 +1,9 @@
 # tenambatch
+
 ## heading
 
-|S.no|Table|
+| S.No | Table | Contents |
+| :--: | :---: | :------: |
+| 1 |  | :------: |
+
+## heading
